@@ -58,8 +58,8 @@ function App() {
       className="MultiStepForm"
       style={{
         position: "relative",
-        background: "white",
-        border: "1px solid black",
+        background: "#f5f5f5",
+        border: "1px solid #aaaaaa",
         padding: "2rem",
         margin: "1rem",
         borderRadius: "0.5rem",

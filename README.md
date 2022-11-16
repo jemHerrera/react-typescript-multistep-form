@@ -29,7 +29,7 @@ npm run build
 <!-- Push to gh-pages branch -->
 git add dist -f
 git commit -m "gh commit"
-git subtree push --prefix origin gh-pages
+git subtree push --prefix dist origin gh-pages
 ```
 
 
