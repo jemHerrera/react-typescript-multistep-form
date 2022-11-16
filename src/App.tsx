@@ -28,7 +28,7 @@ const INITIAL_DATA: FormData = {
 }
 
 function App() {
-  const [data, setData] = useState([INITIAL_DATA])
+  const [data, setData] = useState(INITIAL_DATA)
 
   function updateFields(fields: Partial<FormData>){
     setData(prev => {
@@ -44,9 +44,9 @@ function App() {
     back,
     next
   } = useMultistepForm([
-  <UserForm {...data} updateFields={updateFields}/>, 
-  <AddressForm {...data} updateFields={updateFields}/>, 
-  <AccountForm {...data} updateFields={updateFields}/>])
+    <UserForm {...data} updateFields={updateFields} />, 
+    <AddressForm {...data} updateFields={updateFields} />, 
+    <AccountForm {...data} updateFields={updateFields} />])
 
   function onSubmit(e: FormEvent){
     e.preventDefault();
