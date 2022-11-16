@@ -19,3 +19,17 @@ The purpose of this repo is for me to get hands on experience while learning Rea
 * ReactElement type
 
 
+## Github pages hosting Vite tutorial
+[Youtube Tutorial here](https://www.youtube.com/watch?v=yo2bMGnIKE8)
+
+```
+<!-- Build -->
+npm run build
+
+<!-- Push to gh-pages branch -->
+git add dist -f
+git commit -m "gh commit"
+git subtree push --prefix origin gh-pages
+```
+
+
