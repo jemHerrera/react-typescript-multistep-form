@@ -6,16 +6,16 @@ The purpose of this repo is for me to get hands on experience while learning Rea
 
 ## Things I've Learned
 ### React
-..* Using hooks and useState()
-..* Clean component structuring
-..* Wrapping components
-..* {...data} as props
+* Using hooks and useState()
+* Clean component structuring
+* Wrapping components
+* {...data} as props
 
 ### TypeScript
-..* type declaration
-..* Partial type
-..* & operator when combining types
-..* ReactNode type
-..* ReactElement type
+* type declaration
+* Partial type
+* & operator when combining types
+* ReactNode type
+* ReactElement type
 
 
